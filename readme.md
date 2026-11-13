@@ -11,6 +11,11 @@ If we connected the photodiode directly to the board, then the ADC pin's input i
 Thus, the voltage value we read would not be accurate and it would not change based off of the photodiode's output.
 
 
+If B = 9, what is Vout? Express your answer in terms of Vref . Use the DAC mode that provides the best resolution available on your MCU (refer to the data sheet).
+Vout = Vref * B / 2^n
+Vout = 9/2^12 * Vref
+
+
 How does the sampling rate of the DAC affect the quality of the output waveform? What are the differences in sound perception between sine, square, and sawtooth waves? 
 Why do we need a capacitor in the signal path when sending an audio signal to a speaker or earphones?
 
